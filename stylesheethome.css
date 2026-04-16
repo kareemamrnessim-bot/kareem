@@ -52,7 +52,7 @@ li a:hover{
 }
 body{
   /* background-image: url("/home/pic6.jpg"); */
-  background-image: url("/home/clouds.jpg");
+  background-image: url("clouds.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
