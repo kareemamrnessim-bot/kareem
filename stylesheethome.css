@@ -50,9 +50,9 @@ li a:hover{
 .home{
   background-color: red;
 }
-body{
+body {
   /* background-image: url("/home/pic6.jpg"); */
-  background-image: url("clouds.jpg");
+  background-image: url("/contactus/clouds.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
