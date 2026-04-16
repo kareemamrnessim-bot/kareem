@@ -1,0 +1,82 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+}
+li a:hover{
+  background-color: #111;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  background-color: red;
+}
+body {  
+  background-image: url("/addcourse/clouds.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* .addcourse{
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 30%;
+} */
+.table{
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 29%;
+  font-weight: bold;
+  text-indent: 0px;
+  letter-spacing: 1px;
+  size: 50px;
+  width: 35%;
+}
+.head2 {
+  position: absolute;
+  top: 20%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Brush Script MT", cursive;  
+}
+.copy {
+  text-transform: capitalize;
+  text-align: right;
+  position: absolute;
+  font-size: 10px;
+  top: 90%;
+  left: 88%;
+}
+label{
+  font-size: 17px;
+  text-indent: 0px;
+}
+input{
+  width: 75%;      
+  height: 40px;   
+  font-size: 20px;  
+  padding: 10px; 
+  left: 40%;
+} 

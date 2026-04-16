@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head{
+  position: absolute;
+  /* top: 35%; */
+  top: 28%;
+  left: 36%;
+  width: 25%;
+  text-align: center;
+  font-size: 90px;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Brush Script MT", cursive;  
+}
+.body{
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  /* top: 53%; */
+  top: 49%;
+  left: 23%;
+  /* font-family: "Brush Script MT", cursive; */
+  font-family: "Courier New", Courier, monospace;  
+}
+p{
+  text-transform: capitalize;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+}
+li a:hover{
+  background-color: #111;
+}
+.home{
+  background-color: red;
+}
+body{
+  /* background-image: url("/home/pic6.jpg"); */
+  background-image: url("/home/clouds.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.copy{
+  text-transform: capitalize;
+  text-align: right;
+  position: absolute;
+  font-size: 10px;
+  top: 90%;
+  left: 88%;
+}
+.last{
+  background-color: #333;
+  border: 8px;
+  text-align: center;
+  position: absolute;
+  left: 44%;
+  top: 60%;
+  /* text-decoration: none; */
+  color: white;
+  font-size: 15px;
+}
+.last:hover{
+  background-color: red;
+}
